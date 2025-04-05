@@ -2,6 +2,10 @@
 
 UK Biobank CMR Segmentation, thickness caculation and ES, ED Extraction(https://github.com/baiwenjia/ukbb_cardiac)
 
+### Changes made:
+- Integrated full processing pipeline (download → unzip → parse)
+- Added multiprocessing and error logging
+
 **ukbb_cardiac** is a toolbox used for processing and analysing cardiovascular magnetic resonance (CMR) images from the [UK Biobank Imaging Study](http://imaging.ukbiobank.ac.uk/). It consists of several parts:
 
 * pre-processing the original DICOM images, converting them into NIfTI format, which is more convenient for image analysis;
